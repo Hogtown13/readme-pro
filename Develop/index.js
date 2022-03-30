@@ -51,7 +51,7 @@ const questions = [
 
     },
      {
-        type: "checkbox",
+        type: "list",
         name: "license",
         message: "What licenses does your project have?",
         choices: ['N/A', 'MIT', 'ISC']

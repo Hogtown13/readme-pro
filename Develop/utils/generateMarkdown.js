@@ -6,9 +6,9 @@ function renderLicenseBadge(license) {
 
   let yourLicense = ''
   if (license=== 'MIT') {
-    yourLicense = `[license: MIT] (https://img.shields.io/badge/License-MIT-yellow.svg)`
+    yourLicense = `[license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   } else if (license=== 'ISC') {
-    yourLicense = `[license: ISC] (https://img.shields.io/badge/License-MIT-yellow.svg)`
+    yourLicense = `[license: ISC](https://img.shields.io/badge/License-isc-yellow.svg)`
   } else if ( license === '') {
     yourLicense = `['']`;
   }
