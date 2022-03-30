@@ -31,47 +31,49 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "What is ?"
+        message: "Give a breif description of your project:"
+    },
+    {
+        type: "input",
+        name: "tableOfContent",
+        message: "Enter your Table of Contents:",
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "Give instructions on how to install your project:",
+
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What is your project used for?",
+
+    },
+     {
+        type: "checkbox",
+        name: "license",
+        message: "What licenses does your project have?",
+        choices: ['N/A', 'MIT', 'ISC']
+
+     },
+    {
+        type: "input",
+        name: "contributing",
+        message: "How can someone contribute to this project?",
+
+    },
+    {
+        type: "input",
+        name: "test",
+        message: "Enter your test code here:",
+
     },
     {
         type: "confirm",
-        name: "tableOfContent",
-        message: "What is your projects title?",
-    },
-    {
-        type: "input",
-        name: "Installation",
-        message: "What is your projects title?",
-
-    },
-    {
-        type: "input",
-        name: "Usage",
-        message: "What is your projects title?",
-
-    },
-    // {
-    //     type: "list",
-    //     name: "License",
-    //     message: "What is your projects title?",
-
-    // },
-    {
-        type: "input",
-        name: "Contributing",
-        message: "What is your projects title?",
-
-    },
-    {
-        type: "input",
-        name: "Test",
-        message: "What is your projects title?",
-
-    },
-    {
-        type: "input",
-        name: "Questions",
-        message: "What is your projects title?",
+        name: "questions",
+        message: "Do you have any questions?",
+        default: ['Yes', 'No']
 
     }
 ];
