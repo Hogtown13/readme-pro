@@ -31,11 +31,11 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Give a breif description of your project:"
+        message: "Give a brief description of your project:"
     },
     {
         type: "input",
-        name: "tableOfContent",
+        name: "toc",
         message: "Enter your Table of Contents:",
     },
     {
