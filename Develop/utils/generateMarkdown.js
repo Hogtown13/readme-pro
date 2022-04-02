@@ -82,29 +82,57 @@ function renderLicenseSection(license) {
   return licenseSection;
 };
 
+// Creates a function to generate a github link with your entered username
+function generateGithub(github) {
+  let userGithub = `[${github}](https://github.com/${github})`
+  return userGithub;
+}
+
+// This function is used to generate an email address for people to contribute and ask questions
+function generateEmail(email) {
+  let userEmail = `<${email}>`
+  return userEmail;
+}
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `${renderLicenseBadge(data.license)} 
+  # ${data.title}  
+
+  ## Table of Contents
+   1. [Description](#Description)
+   2. [Installation](#Installation)
+   3. [Usage](#Usage)
+   4. [License](#License)
+   5. [Contribute](#Contribute)
+   6. [Test](#Test)
+   7. [Questions](#Questions) 
+
   ## Description  
-  ${data.description} 
-  ## Table of Content
-  ${data.toc}
+  ${data.description}  
+
   ## Installation
-  ${data.installation}
+  ${data.installation}  
+
   ## Usage
-  ${data.usage}
+  ${data.usage}  
+
   ## License
-  ${renderLicenseBadge(data.license)}  
-  
   ${renderLicenseLink(data.license)}  
 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}  
+
   ## Contribute
-  ${data.contributing}
+  ${data.contributing}  
+
   ## Test
-  ${data.test}
+  ${data.test}  
+
   ## Questions
-  ${data.questions}
+  ${generateGithub(data.github)}  
+  
+  ${generateEmail(data.email)}
 `;
 }
 

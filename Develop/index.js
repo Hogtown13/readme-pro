@@ -35,46 +35,39 @@ const questions = [
     },
     {
         type: "input",
-        name: "toc",
-        message: "Enter your Table of Contents:",
-    },
-    {
-        type: "input",
         name: "installation",
         message: "Give instructions on how to install your project:",
-
     },
     {
         type: "input",
         name: "usage",
         message: "What is your project used for?",
-
     },
      {
         type: "list",
         name: "license",
         message: "What licenses does your project have?",
         choices: ['N/A', 'MIT', 'ISC']
-
      },
     {
         type: "input",
         name: "contributing",
         message: "How can someone contribute to this project?",
-
     },
     {
         type: "input",
         name: "test",
         message: "Enter your test code here:",
-
     },
     {
-        type: "confirm",
-        name: "questions",
-        message: "Do you have any questions?",
-        default: ['Yes', 'No']
-
+        type: "input",
+        name: "github",
+        message: "What is your github username?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Enter an email address where people can ask questions and contribute"
     }
 ];
 
@@ -89,7 +82,7 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             console.log(answers)
-                writeToFile('README.md', template({ ...answers }))
+            writeToFile('README.md', template({ ...answers }))
             
             // Use user feedback for... whatever!!
 
