@@ -56,4 +56,4 @@
   <tribenation13@yahoo.com>
   
   ## Link to instructional video
-  file:///Users/joshrodeheaver/Downloads/Untitled_%20Apr%203,%202022%208_36%20PM.webm
+  [Instructional video](file:///Users/joshrodeheaver/Downloads/Untitled_%20Apr%203,%202022%208_36%20PM.webm)
