@@ -55,5 +55,6 @@
   
   <tribenation13@yahoo.com>
   
-  ## Link to instructional video
-  <a href = "file:///Users/joshrodeheaver/Downloads/Untitled_%20Apr%203,%202022%208_36%20PM.webm">Instructional video</a>
+  ## Instructional video
+  <video src = "./Untitled_ Apr 3, 2022 8_36 PM.mp4" controls>click here</video>
+  
