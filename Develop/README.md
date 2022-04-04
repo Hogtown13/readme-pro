@@ -1,5 +1,5 @@
 ![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
-  # g  
+  # Readme Generator  
 
   ## Table of Contents
    1. [Description](#Description)
@@ -11,13 +11,13 @@
    7. [Questions](#Questions) 
 
   ## Description  
-  g  
+  An application that allows a user to quickly generate a Readme.md file by answering prompted questions.  
 
   ## Installation
-  g  
+  To install this applicaton, from your Terminal or Bash, npm init then npm install inquirer.  
 
   ## Usage
-  g  
+   Run command node index in your Terminal or Bash.  
 
   ## License
   [license: MIT](https://choosealicense.com/licenses/mit/)  
@@ -45,12 +45,12 @@
     SOFTWARE.  
 
   ## Contribute
-  g  
+  You can contribute to this project by E-mailing me at the provided E-mail address below.  
 
   ## Test
-  g  
+  Test  
 
   ## Questions
-  [g](https://github.com/g)  
+  [Hogtown13](https://github.com/Hogtown13)  
   
-  <g>
+  <tribenation13@yahoo.com>

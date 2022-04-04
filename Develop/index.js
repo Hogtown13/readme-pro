@@ -41,7 +41,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "What is your project used for?",
+        message: "How do you use this application.?",
     },
      {
         type: "list",
